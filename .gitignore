@@ -1,0 +1,8 @@
+## TCP-IP_Socket_Programming Ignore File ##
+
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
