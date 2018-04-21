@@ -22,9 +22,6 @@ int main(void){
     error_handling(__LINE__, "connect() error!");
 
   write(sock, "123", strlen("123"));
-  send(sock, "4", strlen("4"), MSG_OOB);
-  write(sock, "567", strlen("567"));
-  send(sock, "890", strlen("890"), MSG_OOB);
   close(sock);
   return 0;
 
